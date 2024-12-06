@@ -1,0 +1,291 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*  Style */
+
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #eaeaea;
+  color: #333333;
+  background-image: url(leaves.png);
+}
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background-color: lightskyblue;
+  border-bottom: 3px solid salmon;
+  z-index: 9999;
+}
+.container {
+  width: 900px;
+  margin: 80px auto;
+  background-color: white;
+  position: relative;
+}
+.twitter {
+  width: 200px;
+  height: 200px;
+  background-image: url("twitter1.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+  position: absolute;
+  top: -23px;
+  right: -28px;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+
+.header a {
+  text-decoration: none;
+  color: salmon;
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+
+.hero {
+  height: 320px;
+  background-image: url(leaves2.png);
+  background-size: cover;
+  background-position: 0 -230;
+  border-top: 5px solid salmon;
+  border-bottom: 5px solid lightblue;
+}
+
+.main {
+  width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.main h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.main .penulis {
+  font-size: 11px;
+  margin-top: 5px;
+}
+
+.main .penulis a {
+  color: salmon;
+  text-decoration: none;
+}
+
+.main .penulis a:hover {
+  background-color: lightskyblue;
+  color: white;
+}
+.main p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/*  SideBar */
+.sidebar {
+  width: 300px;
+  float: right;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar h3 {
+  color: #666;
+  font-weight: bold;
+}
+
+.sidebar img {
+  width: 70px;
+  height: 70px;
+  float: left;
+  padding-right: 10px;
+}
+
+.sidebar p {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: arial;
+}
+
+.footer {
+  background-color: #333333;
+  padding: 10px;
+}
+
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
+
+.container {
+  border: 5px solid rgb(233, 227, 227);
+}
+
+/*  Clearfix  */
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
